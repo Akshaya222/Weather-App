@@ -1,0 +1,36 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    margin: 0;
+    background: linear-gradient(300deg,#ced1ce,#bfc0c0);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    flex-direction: column;
+}
+.search{
+    padding: 1rem;
+    border-radius: 25px;
+    outline: none;
+    background-color: #9ba89e;
+    font-size: 1.2rem;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.2);
+    min-width: 300px;
+}
+.search:focus{
+    outline: none;
+}
+.weather{
+   margin-top: 0;
+   text-align: center;
+}
+.weather h2{
+    font-size: 2rem;
+    margin-bottom: 0;
+    margin-top: 0;
+}
+.weather small{
+    font-size: 1rem;
+}
